@@ -7,7 +7,7 @@
 # Save this file
 # Create a new cron tab (steps below)
 # In a terminal window: $ crontab -e
-# 					     -- Add to the the bottom '* * * * * bash /path/to/cron.sh'
+# 					     -- Add to the the bottom '* * * * * bash /path/to/watchdog.sh'
 #                        -- ctrl-x to exit and save.
 # This will create a cron job that runs the this script every minute. 
 # 
