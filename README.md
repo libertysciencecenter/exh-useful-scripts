@@ -1,4 +1,4 @@
 watchdog-scripts
 ================
 
-Various watchdog scripts for keep programs running on different os platforms
+Example scripts for each OS to keep a program running.
