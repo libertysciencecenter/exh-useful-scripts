@@ -12,6 +12,10 @@
 ; Optionally you can edit how often the program checks to see if the program is running by editing the time(in milliseconds) on line 30
 
 SetWorkingDir, C:\path\to\application folder\
+
+;; If you need to do anything before shutdown (only tested on windows xp)
+OnMessage(0x11, "WM_QUERYENDSESSION")
+
 Loop
 {
 	Process, Exist, application.exe
@@ -29,3 +33,20 @@ Loop
 		}
 	Sleep 60000	
 }
+
+//On shutdown function
+Return ;Ends furter execution section, incase breaking out of loop
+WM_QUERYENDSESSION()
+{
+
+
+   ;;Do what you gotta do
+   Process Close, graffiti-wall.exe
+
+   ;;Sleep so it gets so apps get time to do stuff....
+   Sleep 1000
+      
+
+}
+
+Return ;; Done!
