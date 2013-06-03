@@ -1,4 +1,8 @@
 ﻿; ===========================================================================
+; Overveiws
+; ===========================================================================
+; This script monitors that an application is running and if is not restart it.
+; ===========================================================================
 ; Installation Instructions
 ; ===========================================================================
 ; Edit working directory ("C:\path\to\application folder\") to you application's path (line 14)
