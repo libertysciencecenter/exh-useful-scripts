@@ -1,4 +1,4 @@
-watchdog-scripts
+Useful Scripts
 ================
 
-Example scripts for each OS to keep a program running.
+This is collection of useful scripts for exhibits. 
